@@ -36,7 +36,7 @@ else href = "/"
 
     <!-- open graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Shoubhit Dash" />
+    <meta property="og:site_name" content="Kevin F. Konrad" />
     <meta property="og:url" content={Astro.url} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -107,7 +107,7 @@ window.localStorage.setItem("theme", theme)
 import { loglib } from "@loglib/tracker"
 
 loglib.record({
-  id: "www_nexxel",
+  id: "www_kfkonrad",
   host: "https://www.loglib.io",
 })
 </script>
@@ -165,14 +165,14 @@ body {
 }
 
 code, pre {
-  font-family: "Hack", 'Courier New', Courier, monospace
+  font-family: "Hack", 'Courier New', Courier, monospace;
 }
 
 .prose {
   @apply max-w-container [&>:not(:last-child)]:mb-6;
 
   & p {
-    @apply my-6 line-height-7.2
+    @apply my-6 line-height-7.2;
   }
 
   & h1,

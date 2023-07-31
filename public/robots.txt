@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.nexxel.dev/sitemap-index.xml
+Sitemap: https://www.kfkonrad.dev/sitemap-index.xml

@@ -7,10 +7,9 @@ import unocss from "unocss/astro"
 import vesper from "./src/lib/vesper.json"
 
 export default defineConfig({
-  site: "https://www.nexxel.dev",
+  site: "https://kfk.haus",
   integrations: [
     mdx(),
-    sitemap(),
     solidJs(),
     unocss({ injectReset: true }),
     vue(),
